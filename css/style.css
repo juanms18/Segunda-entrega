@@ -1,0 +1,197 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #777DA7;
+}
+
+/*Estilo de pagina*/
+
+header.encabezado {
+    background-color: #F9E9EC;
+    padding: 20px;
+    position: relative;
+}
+
+/*estilo encabezado*/
+
+header.encabezado h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    /* Coloca el título a la izquierda */
+}
+
+header.encabezado img {
+    max-height: 200px;
+    position: absolute;
+}
+
+/*diseño imagen*/
+
+nav ul {
+    text-decoration: double;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    /* Añade espacio entre los enlaces */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 100px 100px;
+    transition: background-color 0.3s
+}
+
+main.informacion-general p {
+    font-size: rem;
+    font-weight: bold;
+
+    font-family: 'Arial', sans-serif;
+    margin-top: 120px;
+    font-size: x-large;
+}
+
+section.contenedor {
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+section.contenedor iframe {
+
+    width: 90%;
+
+    height: 350px;
+
+}
+
+section.contenedor h2 {
+    margin-bottom: 20px;
+    /* Espacio inferior para separar el título de las imágenes */
+}
+
+.imagenes-inicio {
+    display: flex;
+
+    justify-content: center;/ align-items: center;
+    /* Centra verticalmente las imágenes */
+    margin-top: px;
+    /* Espacio superior */
+}
+
+.imagenes-inicio img {
+    flex: 3;
+
+    max-width: 60%;
+
+    margin: 5px;
+
+}
+
+
+.pie {
+    background-color: #F7FF58;
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer.pie img {
+    max-width: 120px;
+    /* Tamaño máximo del logo */
+}
+
+footer.pie h3 {
+    text-align: center;
+    /* Centra el texto */
+}
+
+footer.pie h3 {
+    font-size: 2rem;
+    /* Tamaño del h3 más grande */
+}
+
+.redes {
+    display: flex;
+}
+
+.redes a {
+    margin-left: 10px;
+}
+
+.redes img {
+    max-width: 30px;
+    /* Tamaño máximo de los iconos */
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.servicio {
+    flex: 1;
+    margin: 0 10px;
+}
+
+
+.servicio img {
+    width: 100%;
+    height: auto;
+}
+
+.servicio p {
+    margin-top: 10px;
+    
+}
+
+
+.encabezado {
+    background-color: #F9E9EC;
+    padding: 20px;
+}
+
+
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+.datos-contacto,
+.formulario-contacto {
+    flex: 1;
+    padding: 20px;
+}
+
+.datos-contacto h2,
+.formulario-contacto h2 {
+    text-align: center;
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.mapa-container {
+    width: 100%; 
+    height: 500px;
+    margin-top: 20px; 
+    text-align: center;
+}
